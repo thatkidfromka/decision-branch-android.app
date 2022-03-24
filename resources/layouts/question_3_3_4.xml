@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/friends"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questiontext1"
+        android:text="@string/app_3_3_4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_3_3_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="invite female co worker"
+            android:visibility="visible" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button_3_3_4_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invite befriended couple"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_3_3_4_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="inviete girlfriends parents"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_3_3_4_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="invite your boss"
+        android:visibility="visible" />
+</LinearLayout>
